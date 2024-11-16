@@ -39,6 +39,8 @@ public class Leafsong {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.GARLIC);
+            event.accept(ModItems.GOAT_MILK_BOTTLE);
+            event.accept(ModItems.GOAT_MILK_BUCKET);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SILVER_BIRCH_LEAVES);
